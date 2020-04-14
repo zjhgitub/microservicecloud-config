@@ -4,7 +4,7 @@ spring:
 
 ---
 spring: 
-   profiles: dev  #开发环境
+   profiles: dev
    application:
        name: microservicecloud-config-dev
 server:
@@ -12,7 +12,7 @@ server:
 
 ---
 spring: 
-   profiles: test  #测试环境
+   profiles: test
    application:
        name: microservicecloud-config-test
 server:
